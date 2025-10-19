@@ -9,9 +9,17 @@ An AI-powered dashboard for automated HVAC (Heating, Ventilation, Air Conditioni
 ## 🎯 Features
 
 ### 🤖 Intelligent Room Classification
+**Experiments**:
 - **Hybrid Embeddings**: Combines TF-IDF and semantic embeddings for accurate room type classification 
-- **Multi-model Support**: Leverages GPT-4o-mini for context-aware classification
 - **Semantic Matching**: Uses multilingual sentence transformers for similarity-based matching
+
+**LLM-based approach**:
+- **GPT API Call**: Uses GPT-5-nano with batch processing (20 items/batch) and structured JSON output for consistent, cost-effective predictions (<$0.01 per 500 rooms)
+- **High accuracy**: 78.76% accuracy with 99.82% valid predictions (stays within allowed classes) across test projects
+- Reasoning for choosing a LLM over traditional ML:  
+  - Limited labeled training data available  
+  - LLMs excel at understanding and generating human-like text  
+  - Ability to leverage pre-trained knowledge for better generalization to dynamic room label inputs / classes  
 
 ### ⚡ Power Requirements Calculation
 - Automatic calculation of cooling (KLT), heating (HLT), and ventilation (RLT) requirements
@@ -72,7 +80,7 @@ export OPENAI_API_KEY="your-api-key-here"
 ### Running the Dashboard
 
 ```bash
-streamlit run main.py
+uv run streamlit run main.py
 ```
 
 The dashboard will open in your browser at `http://localhost:8501`
