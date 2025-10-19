@@ -10,14 +10,14 @@ from src.pipeline import run_pipeline
 
 # Page configuration
 st.set_page_config(
-    page_title="HVAC Cost Estimator",
+    page_title="FachPlaner Dashboard",
     page_icon="🏢",
     layout="wide"
 )
 
 # Title
-st.title("🏢 HVAC Cost Estimation System")
-st.markdown("Upload your room data to get AI-powered HVAC cost estimates")
+st.title("🏢 FachPlanner DashBoard")
+st.markdown("Upload your architect data get cost estimations")
 
 st.divider()
 

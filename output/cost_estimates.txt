@@ -3,29 +3,25 @@ HVAC COST ESTIMATES
 
 KLT (Cooling Equipment)
 ------------------------------------------------------------
-Equipment 1: Submersible Sewage Pump 0.75 kW - KLT: 45 kW - Cost: €28.0
-
-Equipment 2: Installation Fees - Cost: €X (not specified in the data, assumed as additional cost)
-
+Equipment 1: Submersible Sewage Pump 0.75 kW - [
 ---
 
-Total Cost: €56.0
+Total Cost: €36.0
 
 KLT: 45 KW
 
 HLT (Heating Equipment)
 ------------------------------------------------------------
-Equipment 1: Air Source Heat Pump HG-002 - Cooling equipment (KLT) - 36 kW Stck - Cost: €34,650
-
-Equipment 2: Buffer Storage Tank 1000L Insulated HG-012 - Ventilation equipment (RLT) - 1000 L Stck - Cost: €3990
-
----
-Total Cost: €38,649
+Equipment 1: Air Source Heat Pump HG-004 - KLT: 36 kW (A7/W35) - ---
+Total Cost: €69300
 HLT: 36 KW
 
 RLT (Ventilation Equipment)
 ------------------------------------------------------------
-Equipment 1: AHU-003 - Air Handling Unit 5000 m³/h with Heat Recovery - Cost: €785.0
-RLT: 5000 m³/h (Selected 
+Equipment 1: AHU-003 - Air Handling Unit 5000 m³/h with Heat Recovery - Cost: €61600
+    RLT: 5000 m³/h 
 
-Note: The exact combination of components beyond the AHU-003 is not provided in the data, so a simplified calculation was made equipment and components (such as ducts, dampers, and control systems) would be needed for full RLT system implementation, but specific pricing and quantities were not available in the provided data.
+---
+Total Cost: €61600
+
+Note: The selection of AHU-003 assumes the capacity of 845 m³/h falls within its range (1000 - 2500 m³/h). Additional ventilation equipment like ducts, fire dampers, and control devices would need to be calculated separately for a comprehensive breakdown.
