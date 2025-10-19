@@ -1,9 +1,10 @@
-<!-- filepath: /Users/krishuagarwal/Desktop/DataHack/code/README.md -->
 # 🏢 FachPlanner
 
 An AI-powered dashboard for automated HVAC (Heating, Ventilation, Air Conditioning) cost estimation using advanced machine learning techniques.
 
 ![Demo](demo.gif)
+
+> [📹 Watch Demo Video](demo.mov)
 
 ## 🎯 Features
 
