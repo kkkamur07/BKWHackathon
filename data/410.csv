@@ -1,0 +1,36 @@
+KG,Item_Code,Description,Capacity,Unit,Unit_Price_EUR,Installation_Factor,Total_Unit_Price,Typical_Quantity,Application,Manufacturer,Weight_kg
+411,AW-001,SML Cast Iron Wastewater Pipe DN 50,50 mm,m,45,1.5,68,20-50,Toilet/Sink drainage,PAM/Geberit,4.2
+411,AW-002,SML Cast Iron Wastewater Pipe DN 70,70 mm,m,58,1.5,87,30-80,Multiple fixtures drainage,PAM/Geberit,6.5
+411,AW-003,SML Cast Iron Wastewater Pipe DN 100,100 mm,m,85,1.5,128,40-100,Main stack drainage,PAM/Geberit,10.8
+411,AW-004,SML Cast Iron Wastewater Pipe DN 125,125 mm,m,105,1.5,158,20-60,Building main drain,PAM/Geberit,14.2
+411,AW-005,SML Cast Iron Wastewater Pipe DN 150,150 mm,m,125,1.5,188,10-40,Underground building drain,PAM/Geberit,19.5
+411,AW-006,Floor Drain with Trap DN 50,50 mm,Stck,85,2,170,5-20,Shower/Floor drainage,ACO/Geberit,1.8
+411,AW-007,Floor Drain with Trap DN 100,100 mm,Stck,145,2,290,2-10,Utility room drainage,ACO/Geberit,3.5
+411,AW-008,Roof Drain DN 75 with Leaf Guard,75 mm,Stck,220,1.8,396,4-15,Roof drainage,SitaTurbo/Loro,2.2
+411,AW-009,Roof Drain DN 100 with Leaf Guard & Heating,100 mm,Stck,485,1.8,873,2-8,Heated roof drainage,SitaTurbo/Loro,3.8
+411,AW-010,Grease Separator 2 L/s,2 L/s,Stck,1850,1.6,2960,1-2,Kitchen wastewater,ACO/Mall,85
+411,AW-011,Grease Separator 7 L/s,7 L/s,Stck,3200,1.6,5120,1-2,Commercial kitchen,ACO/Mall,180
+411,AW-012,Submersible Sewage Pump 0.75 kW,0.75 kW,Stck,1650,1.4,2310,1-3,Basement drainage,Grundfos/Wilo,18
+411,AW-013,Submersible Sewage Pump 2.2 kW,2.2 kW,Stck,2850,1.4,3990,1-2,Building drainage,Grundfos/Wilo,32
+411,AW-014,Sump Pit Plastic 800L with Cover,800 L,Stck,580,1.3,754,1-3,Pump chamber,KSB/Kessel,45
+411,AW-015,Backflow Preventer DN 50,50 mm,Stck,420,1.5,630,2-6,Sewage protection,Kessel/Jung,12
+412,TW-001,Stainless Steel Drinking Water Pipe DN 15,15 mm,m,28,2,56,50-150,Cold water supply,Viega/Geberit,0.8
+412,TW-002,Stainless Steel Drinking Water Pipe DN 20,20 mm,m,35,2,70,40-120,Main cold water,Viega/Geberit,1.2
+412,TW-003,Stainless Steel Drinking Water Pipe DN 25,25 mm,m,45,2,90,30-100,Building main supply,Viega/Geberit,1.8
+412,TW-004,Stainless Steel Drinking Water Pipe DN 32,32 mm,m,58,2,116,20-80,Main distribution,Viega/Geberit,2.5
+412,TW-005,Stainless Steel Drinking Water Pipe DN 40,40 mm,m,72,2,144,15-60,Primary supply,Viega/Geberit,3.2
+412,TW-006,Stainless Steel Drinking Water Pipe DN 50,50 mm,m,95,2,190,10-40,Building entrance,Viega/Geberit,4.8
+412,TW-007,Water Meter DN 20 with Fittings,20 mm (Qn 2.5),Stck,185,1.8,333,1-5,Apartment metering,Sensus/Ista,2.5
+412,TW-008,Water Meter DN 25 with Fittings,25 mm (Qn 3.5),Stck,245,1.8,441,1-3,Building main meter,Sensus/Ista,3.8
+412,TW-009,Water Meter DN 40 with Fittings,40 mm (Qn 10),Stck,580,1.8,1044,1-2,Building connection,Sensus/Ista,8.5
+412,TW-010,Pressure Reducing Valve DN 25,25 mm,Stck,285,1.6,456,1-4,Pressure regulation,Honeywell/Caleffi,3.2
+412,TW-011,Pressure Reducing Valve DN 40,40 mm,Stck,485,1.6,776,1-2,Main pressure control,Honeywell/Caleffi,6.5
+412,TW-012,Water Softener 1.5 m³/h Capacity,1.5 m³/h,Stck,2850,1.4,3990,1,Water treatment,BWT/Grünbeck,65
+412,TW-013,Water Softener 3.0 m³/h Capacity Duplex,3.0 m³/h,Stck,5200,1.4,7280,1,Large building treatment,BWT/Grünbeck,145
+412,TW-014,Domestic Hot Water Storage Tank 300L,300 L,Stck,1250,1.5,1875,1-3,Hot water storage,Viessmann/Buderus,95
+412,TW-015,Domestic Hot Water Storage Tank 500L,500 L,Stck,1850,1.5,2775,1-2,Central DHW storage,Viessmann/Buderus,145
+412,TW-016,Domestic Hot Water Storage Tank 1000L,1000 L,Stck,3200,1.5,4800,1,Large DHW system,Viessmann/Buderus,285
+412,TW-017,Instantaneous Water Heater 6.5 kW,6.5 kW,Stck,485,1.3,631,1-5,Single sink DHW,Stiebel Eltron/AEG,3.2
+412,TW-018,Instantaneous Water Heater 13 kW,13 kW,Stck,680,1.3,884,1-4,Shower/Kitchen DHW,Stiebel Eltron/AEG,4.8
+412,TW-019,Instantaneous Water Heater 21 kW,21 kW,Stck,950,1.3,1235,1-3,Multiple fixture DHW,Stiebel Eltron/AEG,6.5
+412,TW-020,Circulation Pump for DHW DN 25,DN 25,Stck,485,1.4,679,1-3,Hot water circulation,Grundfos/Wilo,4.5

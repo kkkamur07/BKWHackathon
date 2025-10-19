@@ -1,0 +1,27 @@
+KG,Item_Code,Description,Capacity,Unit,Unit_Price_EUR,Installation_Factor,Total_Unit_Price,Typical_Quantity,Application,Manufacturer,Weight_kg,Heat_Recovery
+432,AHU-001,Air Handling Unit 1000 m³/h with Heat Recovery,1000 m³/h,Stck,12500,1.8,22500,1-2,Small building ventilation,Wolf/Pluggit,285,85
+432,AHU-002,Air Handling Unit 2500 m³/h with Heat Recovery,2500 m³/h,Stck,22500,1.7,38250,1-2,Medium building ventilation,Wolf/Systemair,485,85
+432,AHU-003,Air Handling Unit 5000 m³/h with Heat Recovery,5000 m³/h,Stck,38500,1.6,61600,1,Large building ventilation,Wolf/Systemair,785,88
+432,AHU-004,Air Handling Unit 10000 m³/h with Heat Recovery,10000 m³/h,Stck,68500,1.5,102750,1,Commercial building,Wolf/Systemair,1285,90
+432,AHU-005,Air Handling Unit 15000 m³/h with Heat Recovery,15000 m³/h,Stck,95000,1.4,133000,1,Industrial facility,Wolf/Systemair,1785,92
+432,DW-001,Rectangular Galvanized Steel Duct Straight,Various,m²,35,2,70,100-500,Main duct runs,Lindab/Trox,8.5,
+432,DW-002,Rectangular Galvanized Steel Duct Fittings,Various,m²,55,2,110,50-200,"Elbows, tees, branches",Lindab/Trox,12,
+432,DW-003,Circular Steel Duct DN 160,DN 160,m,28,2.2,62,40-150,Branch ductwork,Lindab/Spiro,3.2,
+432,DW-004,Circular Steel Duct DN 200,DN 200,m,35,2.2,77,30-120,Main branch ductwork,Lindab/Spiro,4.5,
+432,DW-005,Circular Steel Duct DN 250,DN 250,m,42,2.2,92,20-100,Primary distribution,Lindab/Spiro,6.2,
+432,DW-006,Circular Steel Duct DN 315,DN 315,m,52,2.2,114,15-80,Main trunk,Lindab/Spiro,8.5,
+432,DW-007,Circular Steel Duct DN 400,DN 400,m,68,2.2,150,10-60,Large main trunk,Lindab/Spiro,12.5,
+432,AD-001,Fire Damper 90 min up to 2500 m³/h,2500 m³/h,Stck,285,1.6,456,5-25,Fire protection,Trox/Wildeboer,8.5,
+432,AD-002,Fire Damper 90 min up to 5000 m³/h,5000 m³/h,Stck,485,1.6,776,3-15,Large fire protection,Trox/Wildeboer,15.5,
+432,AD-003,Motorized Volume Control Damper DN 160,DN 160,Stck,285,1.4,399,10-40,Zone control,Belimo/Trox,4.2,
+432,AD-004,Motorized Volume Control Damper DN 250,DN 250,Stck,385,1.4,539,6-25,Main zone control,Belimo/Trox,7.5,
+432,AD-005,Constant Air Volume (CAV) Box up to 600 m³/h,600 m³/h,Stck,385,1.3,501,8-35,Room air volume control,Trox/Krantz,6.5,
+432,AD-006,Variable Air Volume (VAV) Box 300-1200 m³/h,300-1200 m³/h,Stck,685,1.3,891,6-30,Variable room control,Trox/Krantz,12.5,
+432,AD-007,Circular Sound Attenuator DN 160 L=1000mm,DN 160,Stck,185,1.4,259,10-40,Noise reduction,Trox/Lindab,8.5,
+432,AD-008,Circular Sound Attenuator DN 250 L=1500mm,DN 250,Stck,285,1.4,399,6-25,Main duct noise reduction,Trox/Lindab,15.5,
+432,AD-009,Rectangular Sound Attenuator up to 2500 m³/h,2500 m³/h,Stck,485,1.4,679,4-15,Large duct silencing,Trox/Lindab,28.5,
+432,AD-010,Swirl Diffuser 625x625mm up to 2000 m³/h,2000 m³/h,Stck,185,1.5,278,15-60,Supply air distribution,Trox/Krantz,2.8,
+432,AD-011,Displacement Diffuser up to 1200 m³/h,1200 m³/h,Stck,385,1.5,578,8-30,Low-velocity supply,Trox/Krantz,8.5,
+432,AD-012,Disc Valve Supply/Exhaust DN 125,DN 125,Stck,45,1.8,81,20-80,Adjustable air terminal,Trox/Helios,0.6,
+432,AD-013,Supply/Exhaust Grille 800x200mm,800 m³/h,Stck,85,1.6,136,15-60,Wall/ceiling grille,Trox/Helios,1.8,
+432,AD-014,Outdoor Air Intake Grille with Bird Screen,Various,m²,185,1.5,278,5-20,Fresh air intake,Trox/Lindab,12.5,

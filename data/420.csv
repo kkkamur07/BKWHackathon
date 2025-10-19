@@ -1,0 +1,44 @@
+KG,Item_Code,Description,Capacity,Unit,Unit_Price_EUR,Installation_Factor,Total_Unit_Price,Typical_Quantity,Application,Manufacturer,Weight_kg,COP
+421,HG-001,Air Source Heat Pump 8 kW (A7/W35),8 kW,Stck,12500,2.2,27500,1,Residential heating,Viessmann/Daikin,125,4.2
+421,HG-002,Air Source Heat Pump 16 kW (A7/W35),16 kW,Stck,16500,2.1,34650,1,Small commercial,Viessmann/Daikin,185,4.1
+421,HG-003,Air Source Heat Pump 35 kW (A7/W35),35 kW,Stck,28500,1.9,54150,1,Commercial building,Viessmann/Daikin,285,3.9
+421,HG-004,Air Source Heat Pump 50 kW (A7/W35),50 kW,Stck,38500,1.8,69300,1-2,Large commercial,Viessmann/Daikin,385,3.8
+421,HG-005,Air Source Heat Pump 72 kW (A7/W35),72 kW,Stck,52000,1.7,88400,1-2,Industrial/Large building,Viessmann/Daikin,485,3.7
+421,HG-006,Ground Source Heat Pump 12 kW (B0/W35),12 kW,Stck,18500,2.3,42550,1,Geothermal heating,Stiebel Eltron/NIBE,165,4.8
+421,HG-007,Ground Source Heat Pump 25 kW (B0/W35),25 kW,Stck,28500,2.1,59850,1,Geothermal commercial,Stiebel Eltron/NIBE,245,4.7
+421,HG-008,Ground Source Heat Pump 50 kW (B0/W35),50 kW,Stck,48500,1.9,92150,1,Large geothermal,Stiebel Eltron/NIBE,385,4.6
+421,HG-009,Gas Condensing Boiler 35 kW,35 kW,Stck,5800,1.8,10440,1,Gas heating backup,Viessmann/Buderus,95,0
+421,HG-010,Gas Condensing Boiler 70 kW,70 kW,Stck,8500,1.7,14450,1,Commercial gas heating,Viessmann/Buderus,145,0
+421,HG-011,Buffer Storage Tank 500L Insulated,500 L,Stck,1850,1.4,2590,1-2,Heat storage,Reflex/Flamco,85,
+421,HG-012,Buffer Storage Tank 1000L Insulated,1000 L,Stck,2850,1.4,3990,1,Large heat storage,Reflex/Flamco,145,
+421,HG-013,Buffer Storage Tank 2000L Insulated,2000 L,Stck,4500,1.4,6300,1,Commercial heat storage,Reflex/Flamco,285,
+421,HG-014,Expansion Vessel 80L for Heating,80 L,Stck,285,1.3,371,1-2,System expansion,Reflex/Flamco,12,
+421,HG-015,Expansion Vessel 140L for Heating,140 L,Stck,485,1.3,631,1,Large system expansion,Reflex/Flamco,18,
+421,HG-016,Pressure Maintaining System up to 50 kW,50 kW,Stck,1850,1.5,2775,1,Automatic pressure control,Reflex/Flamco,45,
+422,HD-001,Steel Heating Pipe DN 15,DN 15,m,18,2.5,45,50-200,Branch heating pipes,Various,0.6,
+422,HD-002,Steel Heating Pipe DN 20,DN 20,m,22,2.5,55,40-150,Distribution pipes,Various,0.9,
+422,HD-003,Steel Heating Pipe DN 25,DN 25,m,28,2.5,70,30-120,Main distribution,Various,1.3,
+422,HD-004,Steel Heating Pipe DN 32,DN 32,m,35,2.5,88,20-100,Primary distribution,Various,1.8,
+422,HD-005,Steel Heating Pipe DN 40,DN 40,m,45,2.5,113,15-80,Main supply,Various,2.5,
+422,HD-006,Steel Heating Pipe DN 50,DN 50,m,58,2.5,145,10-60,Building main,Various,3.5,
+422,HD-007,Heating Circulation Pump DN 25 (0.5 kW),DN 25,Stck,685,1.5,1028,1-4,Circuit pumping,Grundfos/Wilo,8.5,
+422,HD-008,Heating Circulation Pump DN 32 (1.1 kW),DN 32,Stck,950,1.5,1425,1-3,Main circulation,Grundfos/Wilo,12.5,
+422,HD-009,Heating Circulation Pump DN 40 (1.5 kW),DN 40,Stck,1250,1.5,1875,1-2,Primary circulation,Grundfos/Wilo,18.5,
+422,HD-010,Heating Circulation Pump DN 50 (2.2 kW),DN 50,Stck,1850,1.5,2775,1,Large system circulation,Grundfos/Wilo,28.5,
+422,HD-011,Motorized 3-Way Valve DN 25,DN 25,Stck,485,1.4,679,2-8,Zone control,Belimo/Honeywell,2.8,
+422,HD-012,Motorized 3-Way Valve DN 32,DN 32,Stck,650,1.4,910,2-6,Circuit mixing,Belimo/Honeywell,3.8,
+422,HD-013,Motorized 3-Way Valve DN 40,DN 40,Stck,850,1.4,1190,1-4,Main circuit control,Belimo/Honeywell,5.2,
+422,HD-014,Heat Meter DN 20 (Qn 1.5),DN 20,Stck,485,1.6,776,1-8,Apartment heat metering,Kamstrup/Ista,1.8,
+422,HD-015,Heat Meter DN 25 (Qn 3.5),DN 25,Stck,685,1.6,1096,1-5,Zone heat metering,Kamstrup/Ista,2.5,
+422,HD-016,Heat Meter DN 40 (Qn 10),DN 40,Stck,1250,1.6,2000,1-2,Building heat metering,Kamstrup/Ista,5.5,
+422,HD-017,Pipe Insulation Mineral Wool DN 15-25,DN 15-25,m,8,2.2,18,100-300,Thermal insulation,Rockwool/Armacell,0.3,
+422,HD-018,Pipe Insulation Mineral Wool DN 32-40,DN 32-40,m,12,2.2,26,50-150,Thermal insulation,Rockwool/Armacell,0.5,
+422,HD-019,Pipe Insulation Mineral Wool DN 50-65,DN 50-65,m,18,2.2,40,30-100,Thermal insulation,Rockwool/Armacell,0.8,
+423,RH-001,Steel Panel Radiator Type 11 600x800,800 W,Stck,185,1.6,296,10-40,Room heating,Kermi/Buderus,18,
+423,RH-002,Steel Panel Radiator Type 22 600x1200,1800 W,Stck,285,1.6,456,8-30,Large room heating,Kermi/Buderus,32,
+423,RH-003,Steel Panel Radiator Type 33 600x1600,3200 W,Stck,425,1.6,680,5-20,High heat demand,Kermi/Buderus,58,
+423,RH-004,Underfloor Heating System per m²,80 W/m²,m²,38,1.8,68,50-300,Floor heating,Uponor/Rehau,1.2,
+423,RH-005,Ceiling Radiant Panel 600x1200 (400W),400 W,Stck,285,1.5,428,10-60,Ceiling heating/cooling,Zehnder/Variotherm,12,
+423,RH-006,Ceiling Radiant Panel 1200x1200 (800W),800 W,Stck,485,1.5,728,8-40,Large ceiling heating,Zehnder/Variotherm,22,
+423,RH-007,Fan Convector Unit 2-Pipe 2 kW,2 kW,Stck,685,1.4,959,5-25,Fast response heating,Kampmann/Jaga,15,
+423,RH-008,Fan Convector Unit 4-Pipe 4 kW,4 kW,Stck,950,1.4,1330,4-20,Heating & cooling,Kampmann/Jaga,28,

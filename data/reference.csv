@@ -1,0 +1,28 @@
+RoomType,Heating_W_per_m2,Cooling_W_per_m2,Ventilation_m3_h_per_person,RelativeHumidity_pct,SuggestedCoolingEquipment,SuggestedHeatingEquipment,SuggestedVentilationEquipment,Notes
+Großraumbüros,40,50,0,50,VRF/VRV heat pump,Hydronic heating in FCU/window units,Window or decentralized ventilation,Manual window ventilation possible
+Einzel-/Zweierbüros,40,50,0,50,Split or VRF system,Electric radiator or small FCU,Decentralized supply/extract,CO2-based control recommended
+Seminar-/Besprechungsräume,40,60,15,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand
+Aufenthaltsräume,40,50,6,50,VRF or rooftop AHU,Hydronic heating coil,Central or local ventilation,Standard comfort zone
+Foyers,40,50,6,50,Rooftop or central AHU,Hydronic heating coil,Central AHU with demand control,Large open volume
+Laborräume,40,50,6,50,Dedicated AHU with exhaust,Hydronic heating coil,Supply + fume extract,High air change rates
+Erste-Hilfe-/Sanitätsraum,40,50,6,50,Split AC,Electric or hydronic heating,Local extract and supply,Hygiene zone
+Verkehrsflächen/Flure,0,0,0,0,None,None,Minimal ventilation,Unconditioned
+Teeküchen/Catering,40,0,6,50,Local split AC,Hydronic heating,Local exhaust hood,Heat from equipment
+Windfang,0,0,0,0,None,None,None,Unconditioned buffer zone
+WCs,0,0,60,60,None,None,Local exhaust fan,High extraction rate
+WCs Beh.,0,0,60,60,None,None,Local exhaust fan,Accessible design
+Duschen,0,0,100,60,None,None,High extract fan,Humidity control
+Umkleiden,0,0,6,50,None,None,Local ventilation,Adjacent to showers
+Putzräume,0,0,3,50,None,None,Local exhaust,Small utility space
+Lager m. Fenster,0,0,0,50,None,None,Window ventilation,Unconditioned
+Lager innenliegend,0,0,3,50,None,None,Minimal extract,Unconditioned
+Technikräume,25,0,1.5,50,Split AC,Hydronic heater,Mechanical supply/extract,Per equipment
+Serverräume,0,0,1.5,50,Precision CRAC or in-row cooling,Backup heater,Dedicated ventilation,Follow IT load table
+ELT-Verteiler,0,0,0,50,None,Freeze protection heater,Minimal ventilation,Per electrical spec
+Müllräume,25,0,15,50,None,None,High extract fan,Odor control
+Batterieräume,25,0,3,50,Split AC if required,Temperature control heater,Dedicated ventilation,Safety ventilation
+Drucker-/Kopierräume,30,30,3,50,Split AC,Hydronic heating,Local extract and supply,Heat load from devices
+Treppenhäuser,25,0,0,50,None,None,Smoke ventilation only,Fire safety only
+Schächte,0,0,0,0,None,None,None,Service only
+Aufzüge,0,0,0,0,None,None,Minimal ventilation,Shaft ventilation only
+ELT-DV,0,0,1.5,50,Precision cooling or split,Freeze protection heater,Dedicated ventilation,Follow LET table

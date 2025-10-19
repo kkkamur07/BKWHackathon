@@ -1,0 +1,31 @@
+Architect room names,Area,Volume,BKW_name,RoomType,Heating_W_per_m2,Cooling_W_per_m2,Ventilation_m3_h_per_person,RelativeHumidity_pct,SuggestedCoolingEquipment,SuggestedHeatingEquipment,SuggestedVentilationEquipment,Notes,HLT_required_KW,KLT_required_KW,estimated_persons,RLT_required_m3h
+Meeting Room A,45.5,136.5,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,1.82,2.73,4.55,68.25
+Executive Conference Hall,78.2,234.6,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,3.128,4.692,7.82,117.30000000000001
+Main Office Space,120.0,360.0,Großraumbüros,Großraumbüros,40,50,0.0,50,VRF/VRV heat pump,Hydronic heating in FCU/window units,Window or decentralized ventilation,Manual window ventilation possible,4.8,6.0,12.0,0.0
+Employee Lounge,35.8,107.4,Aufenthaltsräume,Aufenthaltsräume,40,50,6.0,50,VRF or rooftop AHU,Hydronic heating coil,Central or local ventilation,Standard comfort zone,1.432,1.7899999999999998,3.5799999999999996,21.479999999999997
+Restroom - Male,12.5,37.5,WCs,WCs,0,0,60.0,60,,,Local exhaust fan,High extraction rate,0.0,0.0,1.25,75.0
+Restroom - Female,12.5,37.5,WCs,WCs,0,0,60.0,60,,,Local exhaust fan,High extraction rate,0.0,0.0,1.25,75.0
+Kitchen/Pantry,28.0,84.0,Teeküchen/Catering,Teeküchen/Catering,40,0,6.0,50,Local split AC,Hydronic heating,Local exhaust hood,Heat from equipment,1.12,0.0,2.8,16.799999999999997
+Server Room,18.5,55.5,Serverräume,Serverräume,0,0,1.5,50,Precision CRAC or in-row cooling,Backup heater,Dedicated ventilation,Follow IT load table,0.0,0.0,1.85,2.7750000000000004
+Storage Closet,8.2,24.6,Lager innenliegend,Lager innenliegend,0,0,3.0,50,,,Minimal extract,Unconditioned,0.0,0.0,0.82,2.46
+Reception Area,42.0,126.0,Foyers,Foyers,40,50,6.0,50,Rooftop or central AHU,Hydronic heating coil,Central AHU with demand control,Large open volume,1.68,2.1,4.2,25.200000000000003
+Manager's Office,25.0,75.0,Einzel-/Zweierbüros,Einzel-/Zweierbüros,40,50,0.0,50,Split or VRF system,Electric radiator or small FCU,Decentralized supply/extract,CO2-based control recommended,1.0,1.25,2.5,0.0
+Open Workspace,95.5,286.5,Großraumbüros,Großraumbüros,40,50,0.0,50,VRF/VRV heat pump,Hydronic heating in FCU/window units,Window or decentralized ventilation,Manual window ventilation possible,3.82,4.775,9.55,0.0
+Break Room,22.0,66.0,Aufenthaltsräume,Aufenthaltsräume,40,50,6.0,50,VRF or rooftop AHU,Hydronic heating coil,Central or local ventilation,Standard comfort zone,0.88,1.1,2.2,13.200000000000001
+Copy/Print Room,10.0,30.0,Drucker-/Kopierräume,Drucker-/Kopierräume,30,30,3.0,50,Split AC,Hydronic heating,Local extract and supply,Heat load from devices,0.3,0.3,1.0,3.0
+Small Meeting Room,20.0,60.0,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,0.8,1.2,2.0,30.0
+Training Room,55.0,165.0,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,2.2,3.3,5.5,82.5
+IT Support Office,15.5,46.5,Einzel-/Zweierbüros,Einzel-/Zweierbüros,40,50,0.0,50,Split or VRF system,Electric radiator or small FCU,Decentralized supply/extract,CO2-based control recommended,0.62,0.775,1.55,0.0
+Corridor Main,85.0,255.0,Verkehrsflächen/Flure,Verkehrsflächen/Flure,0,0,0.0,0,,,Minimal ventilation,Unconditioned,0.0,0.0,8.5,0.0
+Lobby Entrance,65.0,195.0,Foyers,Foyers,40,50,6.0,50,Rooftop or central AHU,Hydronic heating coil,Central AHU with demand control,Large open volume,2.6,3.25,6.5,39.0
+WC Accessible,15.0,45.0,WCs Beh.,WCs Beh.,0,0,60.0,60,,,Local exhaust fan,Accessible design,0.0,0.0,1.5,90.0
+Staff Kitchen,18.5,55.5,Teeküchen/Catering,Teeküchen/Catering,40,0,6.0,50,Local split AC,Hydronic heating,Local exhaust hood,Heat from equipment,0.74,0.0,1.85,11.100000000000001
+Conference Room B,32.0,96.0,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,1.28,1.92,3.2,48.0
+Workstation Area,110.0,330.0,Großraumbüros,Großraumbüros,40,50,0.0,50,VRF/VRV heat pump,Hydronic heating in FCU/window units,Window or decentralized ventilation,Manual window ventilation possible,4.4,5.5,11.0,0.0
+Filing Room,14.0,42.0,Lager innenliegend,Lager innenliegend,0,0,3.0,50,,,Minimal extract,Unconditioned,0.0,0.0,1.4,4.199999999999999
+Cleaning Supply,6.5,19.5,Putzräume,Putzräume,0,0,3.0,50,,,Local exhaust,Small utility space,0.0,0.0,0.65,1.9500000000000002
+Boardroom,68.0,204.0,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,60,15.0,60,Packaged AHU + chilled ceiling,Hydronic coil in AHU,Central VAV ventilation,High ventilation demand,2.72,4.08,6.8,102.0
+Admin Office,22.5,67.5,Einzel-/Zweierbüros,Einzel-/Zweierbüros,40,50,0.0,50,Split or VRF system,Electric radiator or small FCU,Decentralized supply/extract,CO2-based control recommended,0.9,1.125,2.25,0.0
+IT Server Closet,12.0,36.0,Serverräume,Serverräume,0,0,1.5,50,Precision CRAC or in-row cooling,Backup heater,Dedicated ventilation,Follow IT load table,0.0,0.0,1.2,1.7999999999999998
+Pantry Area,15.0,45.0,Teeküchen/Catering,Teeküchen/Catering,40,0,6.0,50,Local split AC,Hydronic heating,Local exhaust hood,Heat from equipment,0.6,0.0,1.5,9.0
+Mail Room,18.0,54.0,Lager m. Fenster,Lager m. Fenster,0,0,0.0,50,,,Window ventilation,Unconditioned,0.0,0.0,1.8,0.0
