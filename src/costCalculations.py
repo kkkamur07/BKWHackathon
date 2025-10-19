@@ -2,7 +2,7 @@
 
 import ollama
 import pandas as pd
-
+import re
 
 class OllamaClassifier():
     def __init__(self, model_name: str ):
@@ -66,15 +66,72 @@ class OllamaClassifier():
         """
         return prompt
     
+    def clean_output(self, output: str) -> str:
+        """
+        Clean the output by removing unwanted introductory and explanatory text.
+        
+        Args:
+            output: Raw output from Ollama
+        
+        Returns:
+            Cleaned output with only the cost breakdown
+        """
+        # Patterns to remove (case-insensitive)
+        unwanted_patterns = [
+            r"Based on.*?(?=Equipment|\n\n)",  # "Based on an input capacity..."
+            r"Capacity:.*?\n",  # "Capacity: X KW" or "Capacity: X m³/h"
+            r"we need to consider.*?(?=Equipment|\n\n)",  # explanatory sentences
+            r"Here is.*?(?=Equipment|\n\n)",  # "Here is the breakdown..."
+            r"The total cost.*?(?=Equipment|\n\n)",  # explanatory cost sentences before breakdown
+            r"For.*?we will.*?(?=Equipment|\n\n)",  # "For X capacity, we will..."
+            r"I'll.*?(?=Equipment|\n\n)",  # "I'll calculate..."
+            r"Let me.*?(?=Equipment|\n\n)",  # "Let me break down..."
+            r"^\*\*Capacity.*?\n",  # Lines starting with **Capacity
+            r"^Input.*?:\s*\d+.*?\n",  # "Input Capacity: X"
+        ]
+        
+        cleaned = output
+        
+        # Remove unwanted patterns
+        for pattern in unwanted_patterns:
+            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE | re.MULTILINE | re.DOTALL)
+        
+        # Remove multiple blank lines
+        cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
+        
+        # Remove leading/trailing whitespace
+        cleaned = cleaned.strip()
+        
+        # If the output starts with text before "Equipment", remove it
+        lines = cleaned.split('\n')
+        start_idx = 0
+        
+        for i, line in enumerate(lines):
+            # Look for the first line that contains "Equipment" or starts with "---" or "Total"
+            if (re.search(r'Equipment\s+\d+', line, re.IGNORECASE) or 
+                line.strip().startswith('---') or
+                re.search(r'^Total\s+Cost', line, re.IGNORECASE)):
+                start_idx = i
+                break
+        
+        # Reconstruct from the first relevant line
+        if start_idx > 0:
+            cleaned = '\n'.join(lines[start_idx:])
+        
+        return cleaned.strip()
+    
     def generate(self, type : str, input: int) -> str:
         print("Generating response")
         prompt = self.build_prompt(type, input)
         print(f"Prompt: {prompt}")
         response = ollama.chat(model=self.model_name, messages=[{"role": "user", "content": prompt}])
-        return response.message.content
+        
+        # Clean the output before returning
+        raw_output = response.message.content
+        cleaned_output = self.clean_output(raw_output)
+        
+        return cleaned_output
 
 # Example usage:
 # classifier = OllamaClassifier(model_name="your-model-name")
 # result = classifier.generate(type="KLT", input=100)
-
-    
