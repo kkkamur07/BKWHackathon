@@ -3,120 +3,29 @@ HVAC COST ESTIMATES
 
 KLT (Cooling Equipment)
 ------------------------------------------------------------
-Given the input capacity of 45, we need to find the appropriate HLT (heating) equipment that can meet this requirement. 
+Equipment 1: Submersible Sewage Pump 0.75 kW - KLT: 45 kW - Cost: €28.0
 
-Upon reviewing the available heating equipment (HLT), the following options meet or exceed the 45 KW capacity:
+Equipment 2: Installation Fees - Cost: €X (not specified in the data, assumed as additional cost)
 
-1. AW-002 SML Cast Iron Wastewater Pipe DN 70 - Capacity: 58 kW
-   Cost: €87 per unit
+---
 
-2. AW-003 SML Cast Iron Wastewater Pipe DN 100 - Capacity: 85 kW
-   Cost: €128 per unit
+Total Cost: €56.0
 
-3. AW-004 SML Cast Iron Wastewater Pipe DN 125 - Capacity: 105 kW
-   Cost: €158 per unit
-
-4. AW-006 Floor Drain with Trap DN 50 Stck (Combined capacity can reach up to 170 kW, but it's more suitable for drainage purposes and doesn't directly contribute to heating)
-   Cost: €1.8 per unit
-
-Considering the context, AW-002 or AW-003 would be more direct options for KLT (heating) systems, considering their primary purpose of delivering heat. 
-
-Calculations:
-
-1. For AW-002:
-   - Total quantity needed to meet 45 kW capacity = 45/58 ≈ 0.77 units
-   - Total cost = 0.77 * €87 ≈ €66.99
-
-2. For AW-003:
-   - Total quantity needed to meet 45 kW capacity = 45/85 ≈ 0.53 units
-   - Total cost = 0.53 * €128 ≈ €67.84
-
-Based on the above, AW-003 (DN 100 cast iron pipe) appears to be more economical for this capacity.
-
-Total Cost: €67.84
-KLT Capacity: 45 kW
-
-Note: This calculation assumes a single unit purchase and does not include additional costs related to installation, potential piping integration, or other factors that might adjust the total system cost in a real-world scenario. 
-
-Please confirm if further considerations are necessary for your specific application.
+KLT: 45 KW
 
 HLT (Heating Equipment)
 ------------------------------------------------------------
-Given an input capacity of 36 kW (HLT), we need to identify suitable air source heat pumps from our available dataset as they fall under the HLT category, which are used for heating purposes in residential or commercial buildings. 
+Equipment 1: Air Source Heat Pump HG-002 - Cooling equipment (KLT) - 36 kW Stck - Cost: €34,650
 
-1. **Selection of Equipment:**
+Equipment 2: Buffer Storage Tank 1000L Insulated HG-012 - Ventilation equipment (RLT) - 1000 L Stck - Cost: €3990
 
-   - **HG-004** Air Source Heat Pump 50 kW (A7/W35) – This equipment has a capacity of 50 kW, which is greater than our required 36 kW. We'll assume that installing two units in parallel can meet the demand since Viessmann heat pumps are designed for this purpose and they have similar installation factors.
-
-2. **Calculation Breakdown:**
-
-   - The typical cost of HG-004 is €385.0 per unit, with a total of 2 units to be installed (for capacity).
-   - Installation factor: 1-2 (as it's for commercial use)
-   - Total Unit Price = Cost per unit × Number of units × Installation Factor
-   - Total Unit Price = €385.0 × 2 × 1 or 2 × 2 = €770.0 to €796.0
-
-3. **Total Cost:**
-
-   The total cost for the equipment needed to meet a 36 kW capacity, considering two HG-004 units (50 kW each) in parallel, will be:
-   - Total Cost = €770.0 to €796.0
-
-4. **Output Format:**
-
-   Equipment 1: 
-     - **HG-004** Air Source Heat Pump 50 kW (A7/W35) - Capacity: 50 kW
-     - Cost per unit: €385.0, Total for 2 units = €770.0 to €796.0
-   
-   ---
-
-   Total Cost: $€770.0 to €796.0
-   HLT: 36 kW
-
-Please note that this calculation assumes the installation of two heat pumps in parallel for capacity, which might not be necessary based on actual site conditions or local energy efficiency requirements. If you have additional constraints like space limitations or specific operational requirements, please adjust accordingly.
+---
+Total Cost: €38,649
+HLT: 36 KW
 
 RLT (Ventilation Equipment)
 ------------------------------------------------------------
-Based on an input capacity of 840 m³/h for ventilation, we need to consider both cooling (KLT) and heating (HLT) units as well as ventilation equipment (RLT).
+Equipment 1: AHU-003 - Air Handling Unit 5000 m³/h with Heat Recovery - Cost: €785.0
+RLT: 5000 m³/h (Selected 
 
-1. **Cooling Equipment Selection:**
-   - From the provided data, AHU-002 offers a capacity of 2500 m³/h with Heat Recovery and costs €38250 per unit.
-   - To meet an 840 m³/h requirement, you would need multiple AHU-002 units, but this equipment is designed for larger installations (1-2 units). Therefore, we have to explore further options or adjust our capacity expectation slightly upwards.
-
-2. **Revised Cooling Equipment:**
-   - Considering the input of 840 m³/h, let's assume an average capacity required might be around 2500 m³/h as it’s close to AHU-002 and a typical mid-sized application. The actual total capacity can vary based on duct sizing, which we cannot directly calculate from this data.
-
-   - Cost for two AHU-002: €38250 * 2 = €76500
-
-3. **Heating Equipment Selection:**
-   - No direct heating equipment (HLT) is provided in the data matching your capacity of 840 m³/h, as these are primarily designed for ventilation purposes with associated cooling and heat recovery capabilities. If you require a heating element, additional components would be needed that integrate with existing ventilation systems, which isn't directly listed here due to the scope limitation.
-
-4. **Ventilation Equipment Selection:**
-   - To meet an 840 m³/h requirement for ventilation, we'd need additional equipment like ducts, fittings, and controls. However, these items are priced individually per unit (e.g., DW-003 at €3.2 each).
-
-5. **Calculation Breakdown:**
-   - Let's assume you require one additional AHU to supplement the 840 m³/h requirement (since two AHU-002 units might be too large or insufficient based on duct sizing, we use two as an assumption):
-     - Additional AHU needed: €1785.0 * 2 = €3570.0
-  
-6. **RLT Equipment:**
-   - Selecting RLT equipment directly from the data is not possible since it's tied to cooling and heating capacities, not ventilation specifically. The closest comparable would be ducts like DW-001 or AD-005/AD-006, which facilitate airflow within the building but don't inherently serve as RLT equipment in this context.
-
-7. **Total Cost Estimation:**
-   - Based on our assumptions and pricing:
-     - Cooling Equipment (two AHU-002): €76500
-     - Potential Additional Heating/Cooling Components (if required, but not explicitly listed here due to scope limitations): Not applicable for this capacity calculation.
-     - Total Estimated Cost without specifying additional ductwork details: $76500
-  
-8. **RLT Capacity:**
-   - To meet an 840 m³/h ventilation requirement, you would likely need a combination of ducts and control systems (AD-005 to AD-014).
-   - Assuming an average capacity for these components could be roughly 200 m³/h per unit (this varies based on specific needs), two such units would provide approximately 400 m³/h, which is less than our target. Hence, more specific ducts might be required to achieve 840 m³/h.
-
-**Detailed Output:**
-
-- **Equipment 1: AHU-002 (2 units)**
-  - Specification: Cooling equipment with Heat Recovery, 2500 m³/h capacity
-  - Cost per unit: €38250
-  - Total for two units: €76500
-
-- **Additional Note:** 
-  To fully meet an 840 m³/h ventilation requirement, additional ductwork (like DW-001 to DW-007), control valves (AD-005 to AD-014), and possibly advanced air handling units or variable refrigerant flow (VRF) systems might be necessary. The exact cost would depend on specific needs, which aren't fully provided in the dataset.
-
-**Total Estimated Cost:** €76500 for cooling/ventilation equipment based on AHU-002 assumption. Actual capacity required might necessitate further ductwork and controls not explicitly detailed within this list, impacting total cost significantly depending on specific implementation.
+Note: The exact combination of components beyond the AHU-003 is not provided in the data, so a simplified calculation was made equipment and components (such as ducts, dampers, and control systems) would be needed for full RLT system implementation, but specific pricing and quantities were not available in the provided data.

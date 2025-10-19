@@ -10,5 +10,7 @@ dependencies = [
     "ollama>=0.6.0",
     "openai>=2.5.0",
     "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "sentencepiece>=0.2.1",
     "streamlit>=1.50.0",
 ]

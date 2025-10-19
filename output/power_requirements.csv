@@ -28,4 +28,4 @@ Boardroom,68.0,204.0,Seminar-/Besprechungsräume,Seminar-/Besprechungsräume,40,
 Admin Office,22.5,67.5,Einzel-/Zweierbüros,Einzel-/Zweierbüros,40,50,0.0,50,Split or VRF system,Electric radiator or small FCU,Decentralized supply/extract,CO2-based control recommended,0.9,1.125,2.25,0.0
 IT Server Closet,12.0,36.0,Serverräume,Serverräume,0,0,1.5,50,Precision CRAC or in-row cooling,Backup heater,Dedicated ventilation,Follow IT load table,0.0,0.0,1.2,1.7999999999999998
 Pantry Area,15.0,45.0,Teeküchen/Catering,Teeküchen/Catering,40,0,6.0,50,Local split AC,Hydronic heating,Local exhaust hood,Heat from equipment,0.6,0.0,1.5,9.0
-Mail Room,18.0,54.0,Lager m. Fenster,Lager m. Fenster,0,0,0.0,50,,,Window ventilation,Unconditioned,0.0,0.0,1.8,0.0
+Mail Room,18.0,54.0,Lager innenliegend,Lager innenliegend,0,0,3.0,50,,,Minimal extract,Unconditioned,0.0,0.0,1.8,5.4
